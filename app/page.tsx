@@ -49,7 +49,7 @@ export default function Home() {
       </div>
 
       {/* ═══════════  HEADER / MASTHEAD  ═══════════ */}
-      <header className="bg-white/90 backdrop-blur-md border-b border-gray-200/50 sticky top-0 z-[60] shadow-sm">
+      <header className="bg-white/90 backdrop-blur-md border-b border-gray-200/50 relative z-[40] shadow-sm">
         <div className="max-w-[1140px] mx-auto px-4 py-4 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <a href="/" className="flex items-center gap-4 sm:gap-5 group">
             <div className="relative">
@@ -84,7 +84,7 @@ export default function Home() {
       </header>
 
       {/* ═══════════  NAVIGATION  ═══════════ */}
-      <nav className="sticky top-[86px] sm:top-[112px] z-50 shadow-lg bg-gradient-to-r from-emerald-700 to-emerald-900">
+      <nav className="sticky top-0 z-50 shadow-lg bg-gradient-to-r from-emerald-700 to-emerald-900">
         <div className="max-w-[1140px] mx-auto px-4">
           <div className="nav-scroll flex items-center overflow-x-auto whitespace-nowrap gap-2 sm:gap-4">
             {navItems.map((item) => (
