@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://sarlahi-pati-com.vercel.app"),
   title: "सर्लाहीपाटी - सर्लाहीको समाचार पोर्टल",
   description:
     "सर्लाही–४ मा गगन–अमरेश भिडन्त, फाइदा अमनिश यादवलाई? सर्लाहीको विश्वसनीय अनलाइन समाचार पोर्टल।",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
       "सर्लाही–४ मा गगन–अमरेश भिडन्त, फाइदा अमनिश यादवलाई?",
     images: [
       {
-        url: "/fb_preview.jpg",
+        url: "/news_img.jpg",
         width: 1200,
         height: 630,
         alt: "सर्लाहीपाटी समाचार",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "सर्लाहीपाटी",
     description:
       "सर्लाही–४ मा गगन–अमरेश भिडन्त, फाइदा अमनिश यादवलाई?",
-    images: ["/fb_preview.jpg"],
+    images: ["/news_img.jpg"],
   },
 };
 
